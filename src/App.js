@@ -76,7 +76,7 @@ function App() {
               <div className=" w-full lg:w-1/2">
                 <h3 className="font-bold pb-2">Intelligent Scissors</h3>
                 <h5>An interactive image selection application built with Java. Uses shortest path algorithms to efficiently extract subjects from images.</h5>
-                <h5 className="pt-7">Originally coded as my final project for Object-Oriented Programming, and currently in progress of converting to iOS app.</h5>
+                <h5 className="pt-7">Originally coded as my final project for Object-Oriented Programming.</h5>
               </div>
               <div className="w-full lg:w-1/3 self-center">
                 <img src={scissors} alt="Two screenshots of the intelligent scissors application, one of the shortest path algorithm in progress and one of an unfinished selection."/>
@@ -115,9 +115,10 @@ function App() {
                   <h4 className="italic">Co-Lead of Marketing Team</h4>
                   <h5>Ithaca, NY</h5>
                   <ul className="pt-7 pl-7 list-disc">
-                    <li>Led group of engineers to renovate website using Figma, React, JavaScript, Tailwind CSS</li>
-                    <li>Used AWS Lambda and API Gateway to create versatile REST APIs and a Slack bot for automated weekly report reminders</li>
-                    <li>Collaborated with team members to raise $20,000+ in funds and maintain corporate sponsors</li>
+                    <li>Led group of engineers to renovate website using Figma and upgrading to React framework, reducing codebase by 80% and improving overall code organization</li>
+                    <li>Developed versatile REST APIs using AWS Lambda and API Gateway for a Slack bot that automates weekly report reminders</li>
+                    <li>Acted as primary source of contact for corporate sponsors, boosting sponsorship revenue by 12% in my second semester</li>
+                    <li>Submitted weekly and semesterly reports to manage task progress and descriptions</li>
                   </ul>
                 </div>
               </div>
@@ -130,9 +131,9 @@ function App() {
                   <h4 className="italic">Event Staff & Social Media Manager</h4>
                   <h5>Glenside, PA</h5>
                   <ul className="pt-7 pl-7 list-disc">
-                    <li>Planned, organized, and executed engaging and safe foam parties for children</li>
-                    <li>Communicated with coworkers to foster efficient and precise coordination of party activities</li>
-                    <li>Increased engagement by 55.5% through social media promotion and advertisements</li>
+                    <li>Communicated with coworkers to ensure successful execution of foam and snow parties</li>
+                    <li>Gathered customer feedback to continuously improve event offerings</li>
+                    <li>Increased engagement by 55.5% through strategic social media promotion</li>
                   </ul>
                 </div>
               </div>
