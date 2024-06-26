@@ -75,7 +75,8 @@ function App() {
             <div className={`bg-white rounded-2xl p-7 flex justify-items-stretch ${flexRow ? 'flex-row space-x-28' : 'flex-col space-y-16'}`}>
               <div className=" w-full lg:w-1/2">
                 <h3 className="font-bold pb-2">Intelligent Scissors</h3>
-                <h5>An interactive image selection application built with Java. Uses shortest path algorithms to efficiently extract subjects from images.</h5>
+                <h5>An interactive image selection application built with Java.</h5>
+                <h5 className="pt-7">Uses Dijkstra's algorithm and a heap priority queue to efficiently extract subjects from images. Developed custom weights to more accurately follow edges in images.</h5>
                 <h5 className="pt-7">Originally coded as my final project for Object-Oriented Programming.</h5>
               </div>
               <div className="w-full lg:w-1/3 self-center">
@@ -87,7 +88,7 @@ function App() {
             <div className={`bg-white rounded-2xl p-7 flex justify-items-stretch ${flexRow ? 'flex-row space-x-28' : 'flex-col space-y-16'}`}>
               <div className="w-full lg:w-1/2">
                 <h3 className="font-bold pb-2">Aliens</h3>
-                <h5>A Space Invaders type game built with Python. Extra features to display remaining lives was added in my free time.</h5>
+                <h5>A Space Invaders type game built with Python. Coded additional feature to display remaining lives.</h5>
                 <h5 className="pt-7">Originally coded as my final project for Introduction to Computing. The GUI was coded and provided by professor Walker White.</h5>
               </div>
               <div className="w-full lg:w-1/3 self-center">
@@ -115,10 +116,10 @@ function App() {
                   <h4 className="italic">Co-Lead of Marketing Team</h4>
                   <h5>Ithaca, NY</h5>
                   <ul className="pt-7 pl-7 list-disc">
-                    <li>Led group of engineers to renovate website using Figma and upgrading to React framework, reducing codebase by 80% and improving overall code organization</li>
-                    <li>Developed versatile REST APIs using AWS Lambda and API Gateway for a Slack bot that automates weekly report reminders</li>
-                    <li>Acted as primary source of contact for corporate sponsors, boosting sponsorship revenue by 12% in my second semester</li>
-                    <li>Submitted weekly and semesterly reports to manage task progress and descriptions</li>
+                    <li>Lead group of engineers to renovate website using Figma and migrate to React framework, reducing codebase by 80% and improving overall code organization</li>
+                    <li>Develop versatile REST APIs using AWS Lambda and API Gateway for a Slack bot that automates weekly report reminders</li>
+                    <li>Communicate with corporate sponsors; boosted sponsorship revenue by 12% in first year</li>
+                    <li>Submit weekly and semesterly reports to manage task progress and descriptions</li>
                   </ul>
                 </div>
               </div>
@@ -131,9 +132,9 @@ function App() {
                   <h4 className="italic">Event Staff & Social Media Manager</h4>
                   <h5>Glenside, PA</h5>
                   <ul className="pt-7 pl-7 list-disc">
-                    <li>Communicated with coworkers to ensure successful execution of foam and snow parties</li>
-                    <li>Gathered customer feedback to continuously improve event offerings</li>
-                    <li>Increased engagement by 55.5% through strategic social media promotion</li>
+                    <li>Communicate with coworkers to ensure successful execution of foam and snow parties</li>
+                    <li>Gather customer feedback to continuously improve event offerings</li>
+                    <li>Launched new snow parties resulting in increased social media engagement by 55.5%</li>
                   </ul>
                 </div>
               </div>
@@ -150,7 +151,8 @@ function App() {
                     <ul className="pt-7 pl-7 list-disc">
                       <li>HTML</li>
                       <li>CSS</li>
-                      <li>React.js</li>
+                      <li>React</li>
+                      <li>Figma</li>
                     </ul>
                   </div>
                 </div>
@@ -163,6 +165,7 @@ function App() {
                       <li>Python</li>
                       <li>Java</li>
                       <li>JavaScript</li>
+                      <li>TypeScript</li>
                     </ul>
                   </div>
                 </div>
@@ -172,9 +175,10 @@ function App() {
                   <div>
                     <h4 className="italic">Other Proficiencies</h4>
                     <ul className="pt-7 pl-7 list-disc">
+                      <li>Russian (conversational)</li>
                       <li>Microsoft Office & Google Suite</li>
-                      <li>AWS Cloud Services</li>
-                      <li>Figma</li>
+                      <li>AWS Lambda & DyanamoDB</li>
+                      <li>Autodesk Fusion</li>
                     </ul>
                   </div>
                 </div>
