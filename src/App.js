@@ -6,6 +6,7 @@ import gh from './/images/github-logo.png';
 import email from './/images/email-icon.png';
 import gr from './/images/goodreads-icon.png';
 import scissors from './/images/scissors.PNG';
+import slackbot from './/images/slack-logo.jpeg';
 import aliens from './/images/aliens.PNG';
 import reading from './/images/reading-photo.jpg';
 import travel from './/images/travel-photo.png';
@@ -74,6 +75,19 @@ function App() {
         <FadeInSection>
             <div className={`bg-white rounded-2xl p-7 flex justify-items-stretch ${flexRow ? 'flex-row space-x-28' : 'flex-col space-y-16'}`}>
               <div className=" w-full lg:w-1/2">
+                <h3 className="font-bold pb-2">Slack Bot for Combat Robotics at Cornell</h3>
+                <h5>A Slack Bot to automate weekly report reminders, developed with Python.</h5>
+                <h5 className="pt-7">REST APIs developed using AWS Lambda and API Gateway for automation.</h5>
+                <h5 className="pt-7">Implemented Slack API to sort chat by image and store images in AWS DynamoDB bucket.</h5>
+              </div>
+              <div className="w-full lg:w-1/3 self-center">
+                <img src={slackbot} alt="Slack application icon and text logo."/>
+              </div>
+            </div>
+        </FadeInSection>
+        <FadeInSection>
+            <div className={`bg-white rounded-2xl p-7 flex justify-items-stretch ${flexRow ? 'flex-row space-x-28' : 'flex-col space-y-16'}`}>
+              <div className=" w-full lg:w-1/2">
                 <h3 className="font-bold pb-2">Intelligent Scissors</h3>
                 <h5>An interactive image selection application built with Java.</h5>
                 <h5 className="pt-7">Uses Dijkstra's algorithm and a heap priority queue to efficiently extract subjects from images. Developed custom weights to more accurately follow edges in images.</h5>
@@ -111,13 +125,28 @@ function App() {
           <FadeInSection>
               <div className="bg-white rounded-2xl p-7 justify-items-stretch">
                 <div className="w-full">
+                  <h5 className="text-[#B4B4B4]">July 2024 - Present</h5>
+                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>John Hopkins Center for Talented Youth</h3>
+                  <h4 className="italic">Game Theory and Economics Teaching Assistant</h4>
+                  <h5>Collegeville, PA</h5>
+                  <ul className="pt-7 pl-7 list-disc">
+                    <li>Supervise daily and evening classes; streamline operations in a fast-paced environment</li>
+                    <li>Collaborate with instructor to plan and deliver course material for diverse learning styles</li>
+                    <li>Maintain consistent, professional correspondence with students, parents, and faculty</li>
+                  </ul>
+                </div>
+              </div>
+          </FadeInSection>
+          <FadeInSection>
+              <div className="bg-white rounded-2xl p-7 justify-items-stretch">
+                <div className="w-full">
                   <h5 className="text-[#B4B4B4]">Oct. 2023 - Present</h5>
                   <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>Combat Robotics at Cornell</h3>
                   <h4 className="italic">Co-Lead of Marketing Team</h4>
                   <h5>Ithaca, NY</h5>
                   <ul className="pt-7 pl-7 list-disc">
                     <li>Lead group of engineers to renovate website using Figma and migrate to React framework, reducing codebase by 80% and improving overall code organization</li>
-                    <li>Develop versatile REST APIs using AWS Lambda and API Gateway for a Slack bot that automates weekly report reminders</li>
+                    <li>Manage 5-member team through weekly 6-hour meetings and structure semester timeline</li>
                     <li>Communicate with corporate sponsors; boosted sponsorship revenue by 12% in first year</li>
                     <li>Submit weekly and semesterly reports to manage task progress and descriptions</li>
                   </ul>
