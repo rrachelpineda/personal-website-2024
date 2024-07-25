@@ -110,6 +110,18 @@ function App() {
               </div>
             </div>
         </FadeInSection>
+        <FadeInSection>
+            <div className={`bg-white rounded-2xl p-7 flex justify-items-stretch ${flexRow ? 'flex-row space-x-28' : 'flex-col space-y-16'}`}>
+              <div className="w-full lg:w-1/2">
+                <h3 className="font-bold pb-2">Three-Pound Robot</h3>
+                <h5>A three-pound robot designed in a group. CAD models were developed using Autodesk Fusion 360 and an interactive webpage was coded using HTML and CSS to market the project.</h5>
+                <h5 className="pt-7">Originally designed during onboarding for Combat Robotics at Cornell.</h5>
+              </div>
+              <div className="w-full lg:w-1/3 self-center">
+                <img src={aliens} alt="A screenshot of Aliens gameplay, with most of the aliens destroyed, 3 lives remaining, and a currently fired laser."/>
+              </div>
+            </div>
+        </FadeInSection>
       </div>
 
       <div className="text-start pt-48 font-normal">
@@ -130,8 +142,8 @@ function App() {
                   <h4 className="italic">Game Theory and Economics Teaching Assistant</h4>
                   <h5>Collegeville, PA</h5>
                   <ul className="pt-7 pl-7 list-disc">
-                    <li>Supervise daily and evening classes; streamline operations in a fast-paced environment</li>
-                    <li>Collaborate with instructor to plan and deliver course material for diverse learning styles</li>
+                    <li>Lead evening classes and teach applications of collegiate-level game theory and economics</li>
+                    <li>Cooperate with the instructor to plan and deliver course material for diverse learning styles</li>
                     <li>Maintain consistent, professional correspondence with students, parents, and faculty</li>
                   </ul>
                 </div>
