@@ -115,7 +115,7 @@ function App() {
               <div className="w-full lg:w-1/2">
                 <h3 className="font-bold pb-2">Three-Pound Robot</h3>
                 <h5>A three-pound robot designed in a group. CAD models were developed using Autodesk Fusion 360 and an interactive webpage was coded using HTML and CSS to market the project.</h5>
-                <h5 className="pt-7">Originally designed during onboarding for Combat Robotics at Cornell.</h5>
+                <h5 clasßName="pt-7">Originally designed during onboarding for Combat Robotics at Cornell.</h5>
               </div>
               <div className="w-full lg:w-1/3 self-center">
                 <img src={aliens} alt="A screenshot of Aliens gameplay, with most of the aliens destroyed, 3 lives remaining, and a currently fired laser."/>
