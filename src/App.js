@@ -138,21 +138,6 @@ function App() {
           <FadeInSection>
               <div className="bg-white rounded-2xl p-7 justify-items-stretch">
                 <div className="w-full">
-                  <h5 className="text-[#B4B4B4]">July 2024 - Present</h5>
-                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>John Hopkins Center for Talented Youth</h3>
-                  <h4 className="italic">Game Theory and Economics Teaching Assistant</h4>
-                  <h5>Collegeville, PA</h5>
-                  <ul className="pt-7 pl-7 list-disc">
-                    <li>Lead evening classes and teach applications of collegiate-level game theory and economics</li>
-                    <li>Cooperate with the instructor to plan and deliver course material for diverse learning styles</li>
-                    <li>Maintain consistent, professional correspondence with students, parents, and faculty</li>
-                  </ul>
-                </div>
-              </div>
-          </FadeInSection>
-          <FadeInSection>
-              <div className="bg-white rounded-2xl p-7 justify-items-stretch">
-                <div className="w-full">
                   <h5 className="text-[#B4B4B4]">Oct. 2023 - Present</h5>
                   <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>Combat Robotics at Cornell</h3>
                   <h4 className="italic">Co-Lead of Marketing Team</h4>
@@ -169,7 +154,22 @@ function App() {
           <FadeInSection>
               <div className="bg-white rounded-2xl p-7 justify-items-stretch">
                 <div className="w-full">
-                  <h5 className="text-[#B4B4B4]">May 2023 - Present</h5>
+                  <h5 className="text-[#B4B4B4]">July 2024 - Aug. 2024</h5>
+                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>John Hopkins Center for Talented Youth</h3>
+                  <h4 className="italic">Game Theory and Economics Teaching Assistant</h4>
+                  <h5>Collegeville, PA</h5>
+                  <ul className="pt-7 pl-7 list-disc">
+                    <li>Lead evening classes and teach applications of collegiate-level game theory and economics</li>
+                    <li>Cooperate with the instructor to plan and deliver course material for diverse learning styles</li>
+                    <li>Maintain consistent, professional correspondence with students, parents, and faculty</li>
+                  </ul>
+                </div>
+              </div>
+          </FadeInSection>
+          <FadeInSection>
+              <div className="bg-white rounded-2xl p-7 justify-items-stretch">
+                <div className="w-full">
+                  <h5 className="text-[#B4B4B4]">May 2023 - Aug. 2024</h5>
                   <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>Bucks Bubbles</h3>
                   <h4 className="italic">Event Staff & Social Media Manager</h4>
                   <h5>Glenside, PA</h5>
