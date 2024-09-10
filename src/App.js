@@ -208,6 +208,7 @@ function App() {
                       <li>Java</li>
                       <li>JavaScript</li>
                       <li>TypeScript</li>
+                      <li>HTML/CSS</li>
                     </ul>
                   </div>
                 </div>
@@ -220,7 +221,9 @@ function App() {
                       <li>Russian (conversational)</li>
                       <li>Microsoft Office & Google Suite</li>
                       <li>AWS Lambda & DyanamoDB</li>
+                      <li>React</li>
                       <li>Autodesk Fusion</li>
+                      <li>Verilog</li>
                     </ul>
                   </div>
                 </div>
