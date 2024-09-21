@@ -50,7 +50,7 @@ function App() {
     <div className={`flex-col justify-center px-10 md:px-20 lg:px-40 py-20 lg:py-48 mx-auto ${phone ? 'text-xl' : 'text-4xl'}`}>
       <div className={`justify-items-center flex ${flexRow ? 'flex-row' : 'flex-col'}`}> 
         <div className={`md:w-5/12 md:min-w-96 min-px-6 md:px-12 pb-10 ${phone ? 'w-80' : 'w-96'}`}>
-          <img className="border-8 border-dotted rounded-full border-black" src={pfp} alt="GIF of Rachel Pineda"/>
+          <img className="border-8 border-dotted rounded-full border-black" src={pfp} alt="Rachel Pineda"/>
         </div>
         <div className="w-full lg:w-1/2 text-start mt-4 lg:pl-20 md:max-pl-20 md:self-center">
           <h1 className={`font-bold pb-5 ${phone ? 'text-3xl' : 'text-5xl'}`}>Hi, I'm Rachel! 👋</h1>
@@ -131,7 +131,7 @@ function App() {
                   <h5>Glenside, PA</h5>
                 </div>
                 <div className="w-full flip-card-back">
-                  <ul className="pl-7 list-disc text-3xl/8">
+                  <ul className="pl-7 list-disc text-4xl">
                     <li>Implemented an efficient feedback collection system to identify improvement areas and enhance customer satisfaction</li>
                     <li>Launched innovative new "snow" parties for children with fake snow, increasing social media engagement by 55.5%</li>
                   </ul>
@@ -231,7 +231,7 @@ function App() {
             <FadeInSection>
                 <div className="bg-white rounded-2xl p-7">
                   <div>
-                    <h4 className="italic">Other Proficiencies</h4>
+                    <h4 className="italic">Other</h4>
                     <ul className="pt-7 pl-7 list-disc">
                       <li>English (fluent)</li>
                       <li>Russian (conversational)</li>
@@ -274,7 +274,7 @@ function App() {
             </FadeInSection>
         </div>
       </div>
-      </div>
+    </div>
   );
 }
 
