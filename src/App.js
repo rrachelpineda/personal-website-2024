@@ -71,7 +71,79 @@ function App() {
           </button>
         </div>
       </div>
-      <div id="projects" className="text-start pt-48 lg:pt-80 space-y-12 font-normal">
+      
+
+      <div className="text-start pt-48 font-normal">
+        <h1 className={`font-semibold pb-5 ${phone ? 'text-5xl' : 'text-7xl'}`}>ABOUT</h1>
+        <a
+        href={resume}
+        download={resume}
+        className={`border-2 rounded-full border-black font-medium py-3 px-7 bg-white hover:text-rose-700 inline-flex items-center ${phone ? 'text-xl' : 'text-3xl'}`}>
+        DOWNLOAD RESUME
+      </a>
+        <h3 className="pt-16 pb-5 font-medium">EXPERIENCE</h3>
+        <div className="space-y-12">
+          <FadeInSection>
+            <div className="flip-card">
+              <div className="flip-card-inner bg-white rounded-2xl p-7 justify-items-stretch">
+                <div className="w-full flip-card-front">
+                  <h5 className="text-[#B4B4B4]">Oct. 2023 - Present</h5>
+                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>Combat Robotics at Cornell</h3>
+                  <h4 className="italic">Co-Lead of Marketing Team</h4>
+                  <h5>Ithaca, NY</h5>
+                </div>
+                <div className="w-full flip-card-back">
+                  <ul className="pl-7 list-disc text-2xl/8">
+                    <li>Managed team of 6+ engineers through weekly 6-hour meetings</li>
+                    <li>Redesigned team website by migrating to React.js, reducing codebase by 80% and improving code maintainability</li>
+                    <li>Led communication with corporate sponsors, resulting in a 12% increase in sponsorship revenue in the first year</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </FadeInSection>
+          <FadeInSection>
+            <div className="flip-card">
+              <div className="flip-card-inner bg-white rounded-2xl p-7 justify-items-stretch">
+                <div className="w-full flip-card-front">
+                  <h5 className="text-[#B4B4B4]">July 2024 - Aug. 2024</h5>
+                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>John Hopkins Center for Talented Youth</h3>
+                  <h4 className="italic">Game Theory and Economics Teaching Assistant</h4>
+                  <h5>Collegeville, PA</h5>
+                </div>
+                <div className="w-full flip-card-back">
+                  <ul className="pl-7 list-disc text-3xl/8">
+                    <li>Lead evening classes and teach applications of collegiate-level game theory and economics</li>
+                    <li>Cooperate with the instructor to plan and deliver course material for diverse learning styles</li>
+                    <li>Maintain consistent, professional correspondence with students, parents, and faculty</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </FadeInSection>
+          <FadeInSection>
+            <div className="flip-card">
+              <div className="bg-white rounded-2xl p-7 justify-items-stretch flip-card-inner">
+                <div className="flip-card-front">
+                  <h5 className="text-[#B4B4B4]">May 2023 - Aug. 2024</h5>
+                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>Bucks Bubbles</h3>
+                  <h4 className="italic">Product Marketing Manager</h4>
+                  <h5>Glenside, PA</h5>
+                </div>
+                <div className="w-full flip-card-back">
+                  <ul className="pl-7 list-disc text-3xl/8">
+                    <li>Implemented an efficient feedback collection system to identify improvement areas and enhance customer satisfaction</li>
+                    <li>Launched innovative new "snow" parties for children with fake snow, increasing social media engagement by 55.5%</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </FadeInSection>
+        </div>
+      </div>
+      
+
+        <div id="projects" className="text-start pt-48 lg:pt-80 space-y-12 font-normal">
         <h1 className={`font-semibold ${phone ? 'text-5xl' : 'text-7xl'}`}>PROJECTS</h1>
         <FadeInSection>
             <div className={`bg-white rounded-2xl p-7 flex justify-items-stretch ${flexRow ? 'flex-row space-x-28' : 'flex-col space-y-16'}`}>
@@ -123,78 +195,21 @@ function App() {
               </div>
             </div>
         </FadeInSection>
+
+        <h3 className="pt-16 pb-5 font-medium">SKILLS</h3>
       </div>
 
-      <div className="text-start pt-48 font-normal">
-        <h1 className={`font-semibold pb-5 ${phone ? 'text-5xl' : 'text-7xl'}`}>ABOUT</h1>
-        <a
-        href={resume}
-        download={resume}
-        className={`border-2 rounded-full border-black font-medium py-3 px-7 bg-white hover:text-rose-700 inline-flex items-center ${phone ? 'text-xl' : 'text-3xl'}`}>
-        DOWNLOAD RESUME
-      </a>
-        <h3 className="pt-16 pb-5 font-medium">WORK EXPERIENCES</h3>
-        <div className="space-y-12">
-          <FadeInSection>
-              <div className="bg-white rounded-2xl p-7 justify-items-stretch">
-                <div className="w-full">
-                  <h5 className="text-[#B4B4B4]">Oct. 2023 - Present</h5>
-                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>Combat Robotics at Cornell</h3>
-                  <h4 className="italic">Co-Lead of Marketing Team</h4>
-                  <h5>Ithaca, NY</h5>
-                  <ul className="pt-7 pl-7 list-disc">
-                    <li>Lead group of engineers to renovate website using Figma and migrate to React framework, reducing codebase by 80% and improving overall code organization</li>
-                    <li>Manage 5-member team through weekly 6-hour meetings and structure semester timeline</li>
-                    <li>Communicate with corporate sponsors; boosted sponsorship revenue by 12% in first year</li>
-                    <li>Submit weekly and semesterly reports to manage task progress and descriptions</li>
-                  </ul>
-                </div>
-              </div>
-          </FadeInSection>
-          <FadeInSection>
-              <div className="bg-white rounded-2xl p-7 justify-items-stretch">
-                <div className="w-full">
-                  <h5 className="text-[#B4B4B4]">July 2024 - Aug. 2024</h5>
-                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>John Hopkins Center for Talented Youth</h3>
-                  <h4 className="italic">Game Theory and Economics Teaching Assistant</h4>
-                  <h5>Collegeville, PA</h5>
-                  <ul className="pt-7 pl-7 list-disc">
-                    <li>Lead evening classes and teach applications of collegiate-level game theory and economics</li>
-                    <li>Cooperate with the instructor to plan and deliver course material for diverse learning styles</li>
-                    <li>Maintain consistent, professional correspondence with students, parents, and faculty</li>
-                  </ul>
-                </div>
-              </div>
-          </FadeInSection>
-          <FadeInSection>
-              <div className="bg-white rounded-2xl p-7 justify-items-stretch">
-                <div className="w-full">
-                  <h5 className="text-[#B4B4B4]">May 2023 - Aug. 2024</h5>
-                  <h3 className={`font-bold ${phone ? 'text-3xl' : 'text-5xl'}`}>Bucks Bubbles</h3>
-                  <h4 className="italic">Event Staff & Social Media Manager</h4>
-                  <h5>Glenside, PA</h5>
-                  <ul className="pt-7 pl-7 list-disc">
-                    <li>Communicate with coworkers to ensure successful execution of foam and snow parties</li>
-                    <li>Gather customer feedback to continuously improve event offerings</li>
-                    <li>Launched new snow parties resulting in increased social media engagement by 55.5%</li>
-                  </ul>
-                </div>
-              </div>
-          </FadeInSection>
-
-          <h3 className="pt-16 pb-5 font-medium">SKILLS</h3>
-        </div>
-      </div>
       <div className={`flex text-start justify-between ${flexRow ? 'flex-row space-x-10' : 'flex-col space-y-10'}`}>
             <FadeInSection>
                 <div className="bg-white rounded-2xl p-7">
                   <div>
-                    <h4 className="italic">Web Design</h4>
+                    <h4 className="italic">Programming Languages</h4>
                     <ul className="pt-7 pl-7 list-disc">
+                      <li>Python</li>
+                      <li>Java</li>
+                      <li>JavaScript</li>
                       <li>HTML</li>
                       <li>CSS</li>
-                      <li>React</li>
-                      <li>Figma</li>
                     </ul>
                   </div>
                 </div>
@@ -202,13 +217,13 @@ function App() {
             <FadeInSection>
                 <div className="bg-white rounded-2xl p-7">
                   <div>
-                    <h4 className="italic">Development</h4>
+                    <h4 className="italic">Tools</h4>
                     <ul className="pt-7 pl-7 list-disc">
-                      <li>Python</li>
-                      <li>Java</li>
-                      <li>JavaScript</li>
-                      <li>TypeScript</li>
-                      <li>HTML/CSS</li>
+                      <li>Git</li>
+                      <li>React</li>
+                      <li>AWS Lambda & DynamoDB</li>
+                      <li>Verilog</li>
+                      <li>AutoCAD</li>
                     </ul>
                   </div>
                 </div>
@@ -218,17 +233,15 @@ function App() {
                   <div>
                     <h4 className="italic">Other Proficiencies</h4>
                     <ul className="pt-7 pl-7 list-disc">
+                      <li>English (fluent)</li>
                       <li>Russian (conversational)</li>
-                      <li>Microsoft Office & Google Suite</li>
-                      <li>AWS Lambda & DyanamoDB</li>
-                      <li>React</li>
-                      <li>Autodesk Fusion</li>
-                      <li>Verilog</li>
+                      <li>MS Office/Google Suite</li>
                     </ul>
                   </div>
                 </div>
             </FadeInSection>
         </div>
+
       <div className="text-start font-normal pt-16">
         <h3 className="pt-16 pb-5 font-medium">MY HAPPY LIFE!</h3>
         <div className={`flex text-start justify-between ${flexRow ? 'flex-row space-x-10' : 'flex-col space-y-10'}`}>
@@ -261,7 +274,7 @@ function App() {
             </FadeInSection>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 

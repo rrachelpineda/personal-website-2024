@@ -33,3 +33,49 @@ body {
   transform: none;
   visibility: visible;
 }
+
+.flip-card {
+  perspective: 1000px;
+  width: 100%; /* Set this to match your container */
+}
+
+/* Inner container for the flip animation */
+.flip-card-inner {
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Trigger flip on hover */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Style the front */
+.flip-card-front {
+  position: absolute;
+  width: 100%;
+  padding-inline: 15px;
+  backface-visibility: hidden;
+  transition: opacity 0.4s;
+}
+
+/* Hide the front text on hover */
+.flip-card:hover .flip-card-front {
+  opacity: 0;
+}
+
+/* Style the back */
+.flip-card-back {
+  position: relative; /* Changed to relative to allow height adjustment */
+  width: 100%;
+  min-height: 100%; /* Ensure it expands as needed */
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  display: block;
+}
+
+/* Optional: add height constraints or padding if needed */
+.flip-card {
+  height: auto; /* Let height be dynamic */
+}
