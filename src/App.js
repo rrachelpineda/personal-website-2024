@@ -93,7 +93,7 @@ function App() {
                   <h5>Ithaca, NY</h5>
                 </div>
                 <div className="w-full flip-card-back">
-                  <ul className="pl-7 list-disc text-2xl/8">
+                  <ul className={`pl-7 list-disc ${phone ? 'text-xl/8' : 'text-2xl/8'}`}>
                     <li>Managed team of 6+ engineers through weekly 6-hour meetings</li>
                     <li>Redesigned team website by migrating to React.js, reducing codebase by 80% and improving code maintainability</li>
                     <li>Led communication with corporate sponsors, resulting in a 12% increase in sponsorship revenue in the first year</li>
@@ -112,7 +112,7 @@ function App() {
                   <h5>Collegeville, PA</h5>
                 </div>
                 <div className="w-full flip-card-back">
-                  <ul className="pl-7 list-disc text-3xl/8">
+                  <ul className={`pl-7 list-disc ${phone ? 'text-2xl/8' : 'text-3xl/8'}`}>
                     <li>Lead evening classes and teach applications of collegiate-level game theory and economics</li>
                     <li>Cooperate with the instructor to plan and deliver course material for diverse learning styles</li>
                     <li>Maintain consistent, professional correspondence with students, parents, and faculty</li>
@@ -131,7 +131,7 @@ function App() {
                   <h5>Glenside, PA</h5>
                 </div>
                 <div className="w-full flip-card-back">
-                  <ul className="pl-7 list-disc text-4xl">
+                  <ul className={`pl-7 list-disc ${phone ? 'text-2xl' : 'text-4xl'}`}>
                     <li>Implemented an efficient feedback system to identify improvement areas</li>
                     <li>Launched innovative new fake "snow" parties, increasing social media engagement by 55.5%</li>
                   </ul>
