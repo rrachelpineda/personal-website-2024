@@ -132,8 +132,8 @@ function App() {
                 </div>
                 <div className="w-full flip-card-back">
                   <ul className="pl-7 list-disc text-4xl">
-                    <li>Implemented an efficient feedback collection system to identify improvement areas and enhance customer satisfaction</li>
-                    <li>Launched innovative new "snow" parties for children with fake snow, increasing social media engagement by 55.5%</li>
+                    <li>Implemented an efficient feedback system to identify improvement areas</li>
+                    <li>Launched innovative new fake "snow" parties, increasing social media engagement by 55.5%</li>
                   </ul>
                 </div>
               </div>

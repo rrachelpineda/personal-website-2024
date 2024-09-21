@@ -55,7 +55,7 @@ body {
 .flip-card-front {
   position: absolute;
   width: 100%;
-  padding-inline: 15px;
+  padding-right: 15px;
   backface-visibility: hidden;
   transition: opacity 0.4s;
 }
